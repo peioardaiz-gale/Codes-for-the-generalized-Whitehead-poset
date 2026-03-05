@@ -1,13 +1,11 @@
 """
 Gamma-Whitehead Poset: Vertex Types, Essential Counts, Simplices, and E^1 page
 ===============================================================================
-Usage:
-    python3 whitehead_poset.py
 
 Vertices are integers. Edges are lists of pairs (u, v).
 Edit the EXAMPLES section at the bottom to define your own graph.
 
-The geometric realisation associates an n-simplex to each strictly
+The geometric realization associates an n-simplex to each strictly
 increasing chain  tau_0 < tau_1 < ... < tau_n  of length n+1 in the
 poset. The rank of the simplex is defined as rk(tau_0).
 
